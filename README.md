@@ -1,5 +1,7 @@
 # Bug with class_exists, PHP < 8.0, & Property Promotion
 
+[PHP Bug #80938](https://bugs.php.net/bug.php?id=80938)
+
 ## Summary
 
 Calling `class_exists()` on a class that uses constructor property promotion in 
